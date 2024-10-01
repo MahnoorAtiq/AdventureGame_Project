@@ -1,8 +1,8 @@
 # AdventureGame_Project
 
-Sample Case 1:
-Escape the Castle
-Steps:
+## Sample Case 1:
+
+### Steps:
 
 1.  Start a new game.
 2.  Go to the Armory room.
@@ -145,9 +145,9 @@ A hidden staircase has been revealed. You can now escape the castle.
 
 Congratulations! You've escaped the castle!
 
-##Sample Case 2: 
-Escape the Castle
-Steps:
+## Sample Case 2:
+
+### Steps:
 
 1.  Start a new game.
 2.  Go to the Grand Hall room.
@@ -252,9 +252,10 @@ A hidden staircase has been revealed. You can now escape the castle.
 
 Congratulations! You've escaped the castle!
 
-#Game Description:
+## Game Description:
+
 The game is a text-based adventure game where the player explores a mysterious castle, solves puzzles, and finds a way out. The game is divided into different rooms, each with its own description, items, and puzzles.
-##Methods:
+### Methods:
 1.	main(): The main function that starts the game. It initializes the game state, checks for a saved game, and enters the game loop.
 2.	move_player(direction, current_room): Moves the player to a different room based on the direction input.
 3.	take(item_name, current_room): Allows the player to take an item from the current room.
@@ -268,7 +269,9 @@ The game is a text-based adventure game where the player explores a mysterious c
 11.	show_help(): Displays a list of available commands.
 12.	quit_game(): Quits the game.
 13.	solve_strategy_board_puzzle(): Solves the final puzzle to escape the castle.
-##Game Flow:
+
+### Game Flow:
+
 1.	The game starts with the player standing at the entrance of the castle.
 2.	The player can move to different rooms by inputting the direction (north, south, east, or west).
 3.	The player can take items from the current room by inputting the item name.
@@ -280,7 +283,8 @@ The game is a text-based adventure game where the player explores a mysterious c
 9.	The player can quit the game by inputting the "quit" command.
 10.	The player must solve puzzles and collect items to progress through the game.
 11.	The player must solve the final puzzle to escape the castle.
-##User Interface and Experience:
+
+### User Interface and Experience: 
 1.	The game uses a text-based interface where the player inputs commands to interact with the game world.
 2.	The game displays the current room's description and items, as well as the player's inventory.
 3.	The game provides feedback to the player's actions, such as "You have taken the item" or "You cannot use that item".
@@ -288,72 +292,87 @@ The game is a text-based adventure game where the player explores a mysterious c
 5.	The game provides a help system that displays a list of available commands.
 6.	The game saves the player's progress to a file, allowing them to load the game later.
 7.	The game provides a sense of progression and accomplishment as the player solves puzzles and collects items.
-##Dropping Items:
+
+### Dropping Items: 
+
 1.	When the player uses an item, it will be dropped from their inventory if it cannot be used again.
 2.	The player can drop items from their inventory by inputting the "drop" command.
 3.	The game will display a message indicating that the item has been dropped.
-##Code Organization:
+
+### Code Organization:
 The code is well-structured and organized into different functions and modules. The game uses a main function that calls other functions to perform specific tasks.
-Python Concepts:
+
+### Python Concepts: 
+
 The game uses several Python concepts, including:
 •	Data structures: The game uses lists, dictionaries, and tuples to store data.
 •	Loops: The game uses while loops and for loops to iterate over data.
 •	Conditionals: The game uses if-else statements to make decisions based on user input.
-##Puzzles:
-###Acid Potion Puzzle
+
+## Puzzles:
+### Acid potion Puzzle:
 1.	The player is prompted to create the Acid Potion by combining a Potion and a Recipe.
 2.	The player must have both the Potion and the Recipe in their inventory to solve the puzzle.
 3.	The player is asked if they have the required items. If they answer "yes", the game checks if the Potion and Recipe are in the player's inventory.
 4.	If the player has both items, the game creates the Acid Potion and adds it to the player's inventory.
 5.	If the player does not have both items, the game informs them that they do not have the required items to create the Acid Potion.
-###Acid Potion on Chest Puzzle
+   
+### Acid potion on chest Puzzle:
 1.	The player is prompted to pour the Acid Potion into a chest.
 2.	The player must have the Acid Potion in their inventory to solve the puzzle.
 3.	The player is asked if they have the Acid Potion. If they answer "yes", the game checks if the Acid Potion is in the player's inventory.
 4.	If the player has the Acid Potion, the game pours the Acid Potion into the chest and locks it.
 5.	The player is rewarded with a Metal Token and the puzzle counter is incremented.
-###Clock Needles Puzzle
+   
+### Clock Needles Puzzle:
 1.	The player is prompted to place the clock needles in the Large Clock.
 2.	The player must have the clock needles in their inventory to solve the puzzle.
 3.	The player is asked if they have the clock needles. If they answer "yes", the game checks if the clock needles are in the player's inventory.
 4.	If the player has the clock needles, the game prompts the player to set the time according to a clue.
 5.	The player must enter the correct time to solve the puzzle. If they enter the correct time, the game rewards the player with a Metal Token and increments the puzzle counter.
-###Sword on Sword Rack Puzzle
+   
+### Sword on Sword Rack Puzzle:
 1.	The player is prompted to place a sword in the Sword Rack.
 2.	The player must have the sword in their inventory to solve the puzzle.
 3.	The player is asked if they have the sword. If they answer "yes", the game checks if the sword is in the player's inventory.
 4.	If the player has the sword, the game places the sword in the Sword Rack and rewards the player with a key to the Council Room.
-###Ladder Puzzle
+   
+### Ladder Puzzle:
 1.	The player is prompted to climb a ladder to discover a hidden compartment.
 2.	The player must have the ladder in their inventory to solve the puzzle.
 3.	The game prompts the player to climb the ladder and discover the hidden compartment.
 4.	Inside the compartment, the player finds a riddle that must be solved to progress.
 5.	The player must enter the correct answer to the riddle to solve the puzzle. If they enter the correct answer, the game rewards the player with a Metal Token and increments the puzzle counter.
-###Letter Puzzle
+   
+### Letter Puzzle:
 1.	The player is presented with a coded word with missing letters represented by underscores.
 2.	The player must guess the missing letters to decode the word.
 3.	The game prompts the player to enter a letter to fill in the first underscore.
 4.	If the player enters a correct letter, the game fills in the corresponding underscore and prompts the player to enter another letter.
 5.	The player must enter all the correct letters to decode the word. If they succeed, the game rewards the player with a Metal Token and increments the puzzle counter.
-###Tapestry Puzzle
+   
+### Tapestry Puzzle:
 1.	The player is prompted to pull a hidden lever behind a tapestry.
 2.	The player must have the tapestry in their inventory to solve the puzzle.
 3.	The game prompts the player to pull the lever, which opens a hidden compartment.
 4.	Inside the compartment, the player finds a riddle that must be solved to progress.
 5.	The player must enter the correct answer to the riddle to solve the puzzle. If they enter the correct answer, the game rewards the player with a Metal Token and increments the puzzle counter.
-###Weapon Rack Puzzle
+
+### Weapon Rack Puzzle:
 1.	The player is prompted to place three swords in a weapon rack.
 2.	The player must have the swords in their inventory to solve the puzzle.
 3.	The game prompts the player to enter the name of the sword they want to place in the rack.
 4.	The player must enter the correct name of the sword to place it in the rack.
 5.	The player must place all three swords in the correct order to solve the puzzle. If they succeed, the game rewards the player with a Metal Token and increments the puzzle counter.
-###Strategy Board Puzzle
+   
+### Strategy Board Puzzle:
 1.	The player is presented with a strategy board with several squares.
 2.	The player must place Metal Tokens on the correct squares to solve the puzzle.
 3.	The game prompts the player to enter the square where they want to place the first Metal Token.
 4.	The player must enter the correct square to place the Metal Token.
 5.	The player must place all the Metal Tokens on the correct squares to solve the puzzle. If they succeed, the game rewards the player with a Metal Token and increments the puzzle counter.
-###Council Room Puzzle
+   
+### Council Room Puzzle:
 1.	The player is prompted to use a key to unlock the Council Room.
 2.	The player must have the key in their inventory to solve the puzzle.
 3.	The game prompts the player to enter the key to unlock the Council Room.
