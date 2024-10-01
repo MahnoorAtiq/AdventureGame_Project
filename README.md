@@ -1,4 +1,4 @@
-# AdventureGame_Project
+# The Mysterious Castle Adventure
 
 ## Sample Case 1:
 
@@ -23,7 +23,7 @@
 17. Look around to see the items in the Council Room.
 18. Solve the Strategy Board Puzzle to escape the castle.
 
-Expected Output:
+### Excepted Output:
 
 Welcome to The Mysterious Castle Adventure!
 You are standing at the entrance of a mysterious castle.
@@ -159,7 +159,7 @@ Congratulations! You've escaped the castle!
 8.  Use the key to unlock the Council Room.
 9.  Solve the final puzzle to escape the castle.
 
-Expected Output:
+### Excepted Output:
 
 Welcome to The Mysterious Castle Adventure!
 You are standing at the entrance of a mysterious castle.
