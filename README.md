@@ -1,10 +1,8 @@
 # AdventureGame_Project
 
-
-
-**Sample Case 1:
-**Escape the Castle
-**Steps:
+Sample Case 1:
+Escape the Castle
+Steps:
 
 1.  Start a new game.
 2.  Go to the Armory room.
